@@ -98,7 +98,7 @@ const handleInputChange = () => {
     return inputElement.classList.remove('error');
   }
 };
-// Events
 refreshTasksUsingLocalStorage();
+
 addTaskButton.addEventListener('click', () => handleAddTask());
 inputElement.addEventListener('change', () => handleInputChange());
